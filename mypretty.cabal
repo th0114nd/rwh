@@ -1,0 +1,18 @@
+Name: mypretty
+Version:  0.1
+
+-- This is a comment.
+Synopsis:   My pretty printing library
+Description:
+    A simple pretty-printing library that illustrates how
+    to develop a Haskell.
+Author: TPH
+Maintainer: th0114nd@gmail.com
+
+Cabal-Version: >= 1.2
+
+library
+    Exposed-Modules: Prettify
+                     PrettyJSON
+                     SimpleJSON
+    Build-Depends:   base >= 2.0
